@@ -1,0 +1,24 @@
+{
+  "name": "performance-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "dotenv -e .env k6 run tests/script.js",
+    "test-local": "dotenv -e .env.local k6 run tests/script.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gimenezr/performance-test.git"
+  },
+  "keywords": [],
+  "author": "Roberta Gimenez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gimenezr/performance-test/issues"
+  },
+  "homepage": "https://github.com/gimenezr/performance-test#readme",
+  "devDependencies": {
+    "dotenv-cli": "^7.4.2"
+  }
+}
